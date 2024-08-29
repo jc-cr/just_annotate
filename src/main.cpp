@@ -374,7 +374,7 @@ int main(int argc, char* argv[]) {
         }
 
         if (!video_file) {
-            std::string open_label = "[ Open Vide File ]";
+            std::string open_label = "[ Open Video File ]";
             auto windowSize        = ImGui::GetWindowSize();
             auto textSize          = ImGui::CalcTextSize(open_label.c_str());
             ImGui::SetCursorPosX((windowSize.x - textSize.x) * 0.5f);
